@@ -677,17 +677,17 @@ Vivado RTL analysis结果如下图所示，可以符合设计预期。
 ## 5.上板验证
 第4小节钟仅进行了跑表顶层的仿真验证，在本节进行顶层模块的上板验证。
 ### 5.1 验证计时精度——与秒表对比计时
-为了验证计时精度，采用一个标准秒表与本设计同时开始计时，通过数值的对应判断设计的计时精度，视频如下。
+为了验证计时精度，采用一个标准秒表与本设计同时开始计时，通过数值的对应判断设计的计时精度，视频为"./img/StopWatch-秒表对比计时.mp4"。
 <video src="./img/StopWatch-秒表对比计时.mp4" autoplay="true" controls="controls" width="800" height="600">
 </video>
 
 ### 5.2 验证按键功能——暂停/开始、清零
-为了验证按键功能，本设计尝试在按下start_stop按键开始之后再次按下start_stop暂停，通过观察计时的数值是否继续增加判断功能是否正确；对于清零按键功能的验证，在开始/暂停状态按下clear按键观察数值是否归零，视频如下。
+为了验证按键功能，本设计尝试在按下start_stop按键开始之后再次按下start_stop暂停，通过观察计时的数值是否继续增加判断功能是否正确；对于清零按键功能的验证，在开始/暂停状态按下clear按键观察数值是否归零，视频为"./img/StopWatch-暂停-开始-清零.mp4"。
 <video src="./img/StopWatch-暂停-开始-清零.mp4" autoplay="true" controls="controls" width="800" height="600">
 </video>
 
 ### 5.3 验证计时数值正确性——最大计时
-为了验证计时数值的正确性，需要让本设计连续计时观察数值跳变的正确性。此外，为了节省验证时间，在验证时将时钟分频模块计数最大值调小以加速数值跳变，视频如下。
+为了验证计时数值的正确性，需要让本设计连续计时观察数值跳变的正确性。此外，为了节省验证时间，在验证时将时钟分频模块计数最大值调小以加速数值跳变，视频为"./img/StopWatch-快速计时查看数值跳变.mp4"。
 <video src="./img/StopWatch-快速计时查看数值跳变.mp4" autoplay="true" controls="controls" width="800" height="600">
 </video>
 
@@ -698,8 +698,6 @@ Vivado RTL analysis结果如下图所示，可以符合设计预期。
 verilog源码开源在：[lionelZhaowy/Digital-IC-Analysis-and-Design](https://github.com/lionelZhaowy/Digital-IC-Analysis-and-Design.git "lionelZhaowy/Digital-IC-Analysis-and-Design")
 
 **作者：LionelZhao 欢迎转载，主动输出、与人分享是进步的源泉！！！**
-
-**转载请保留原文地址：[lionelZhaowy/Digital-IC-Analysis-and-Design](https://github.com/lionelZhaowy/Digital-IC-Analysis-and-Design.git "lionelZhaowy/Digital-IC-Analysis-and-Design")**
 
 **创作不易，如果觉得本文对您有帮助欢迎读者客官多多打赏！！！**
 <img src="./img/打赏.jpg" width="80%">
