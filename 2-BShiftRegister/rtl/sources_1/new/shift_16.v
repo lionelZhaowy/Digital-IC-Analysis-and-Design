@@ -1,0 +1,37 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 2024/11/23 15:25:31
+// Design Name: 
+// Module Name: shift_1
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module shift_16(
+    input [31:0]data_in,
+    input dir,
+    input ena,
+    output reg [31:0]data_out
+    );
+    always @(*) begin
+        if(ena)begin
+            data_out = {data_in[15:0], data_in[31:16]};
+        end
+        else begin
+            data_out = data_in;
+        end
+    end
+endmodule
