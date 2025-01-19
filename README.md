@@ -8,3 +8,8 @@ This repository is used to store some codes for the UCAS "Advanced Digital Integ
 - 2-CarryLookAheadAdder: 超前进位加法器
 - 2-BoothWallaceMult: Booth乘法器
 - 2-BShiftRegister: 桶形移位器
+## 作业4：
+- 3-SRAM_CTRL_AHB：AHB从机控制SRAM读写
+- 3-SqrtCal：基于牛顿迭代法的32位无符号数平方根计算逻辑
+- 3-Sort32U8：基于全并行排序的32个8位无符号数排序逻辑
+- 3-MatScan：8×8矩阵的ZigZag扫描电路
